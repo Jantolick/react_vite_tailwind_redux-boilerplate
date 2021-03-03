@@ -16,7 +16,8 @@ function App() {
           <Counter />
           <p>Hello Vite + React!</p>
           <p>
-            <button onClick={() => setCount((count) => count + 1)}>
+            <button className="btn btn-primary"
+            onClick={() => setCount((count) => count + 1)}>
               count is: {count}
             </button>
             
